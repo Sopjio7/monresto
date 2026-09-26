@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100b08">
+  <meta name="description" content="Découvrez SopJio AfricanResto à Makepe, Douala : cuisine camerounaise généreuse, plats du terroir et saveurs authentiques au Rond-Point Poulenc.">
+  <meta property="og:title" content="SopJio AfricanResto — Les saveurs du Cameroun">
+  <meta property="og:description" content="Une table chaleureuse à Makepe pour savourer les grands classiques de la cuisine camerounaise.">
+  <meta property="og:type" content="website">
+  <title>SopJio AfricanResto — Cuisine camerounaise à Makepe</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="SopJio AfricanResto, accueil">
+        <img src="images/logo-sopjio.png" alt="SopJio AfricanResto — Le goût authentique de l’Afrique">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a class="active" href="#accueil">Accueil</a>
+        <a href="plats.html#menu">Menu</a>
+        <a href="#apropos">À propos</a>
+        <a href="#avis">Avis</a>
+        <a href="#localisation">Localisation</a>
+        <a class="nav-cta" href="https://wa.me/237680053489?text=Bonjour%20SopJio%20AfricanResto%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20votre%20menu." target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero" id="accueil" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> La chaleur du Cameroun, à votre table</p>
+        <h1 id="hero-title">Les saveurs de chez nous, <em>avec le cœur.</em></h1>
+        <p class="hero-intro">Des recettes généreuses, des produits frais et ce goût authentique qui rassemble. Bienvenue chez SopJio AfricanResto, à Makepe.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="plats.html#menu">Découvrir le menu <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#apropos">Notre histoire <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-note"><span class="note-star" aria-hidden="true">✳</span><span>Fait avec soin.<br><strong>Servi avec générosité.</strong></span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-photo-frame">
+          <img src="images/IMG-20260926-WA0057.jpg" alt="Poissons braisés aux herbes accompagnés de plantains mûrs" fetchpriority="high">
+        </div>
+        <div class="hero-stamp"><span>Saveurs</span><strong>du<br>Cameroun</strong><span class="stamp-star" aria-hidden="true">✳</span></div>
+        <div class="photo-caption"><span class="caption-dot"></span> La cuisine camerounaise, tout simplement</div>
+      </div>
+      <div class="hero-decoration" aria-hidden="true">S</div>
+    </section>
+
+    <div class="promise-strip" aria-label="Nos engagements">
+      <span>Recettes du terroir</span><i aria-hidden="true">✳</i><span>Produits frais</span><i aria-hidden="true">✳</i><span>Accueil chaleureux</span><i aria-hidden="true">✳</i><span>Makepe, Douala</span>
+    </div>
+
+    <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">À découvrir</p><h2 id="menu-title">Nos <em>incontournables</em></h2></div>
+        <div class="heading-side"><p>Les classiques camerounais, préparés avec générosité et une bonne dose de tradition.</p><div class="carousel-controls" aria-label="Navigation des plats"><button class="carousel-arrow" type="button" data-carousel="home-dishes" data-direction="prev" aria-label="Plats précédents">←</button><button class="carousel-arrow" type="button" data-carousel="home-dishes" data-direction="next" aria-label="Plats suivants">→</button></div></div>
+      </div>
+      <div class="dish-carousel" id="home-dishes" tabindex="0" aria-label="Sélection de plats, balayez horizontalement pour les parcourir">
+        <article class="dish-card reveal"><div class="dish-image"><img src="images/IMG-20260926-WA0075.jpg" alt="Plat traditionnel de Sanga, maïs et feuilles en sauce" loading="lazy"><span class="dish-tag">Tradition</span></div><div class="dish-info"><div class="dish-title-row"><h3>Sanga</h3><span class="price">4 000 <small>FCFA</small></span></div><p>Maïs tendre et feuilles mijotés dans une sauce généreuse aux saveurs du terroir.</p><button class="dish-more" type="button" data-meal="Sanga" data-description="Une spécialité camerounaise réconfortante où le maïs et les feuilles rencontrent les parfums du terroir." data-price="4 000 FCFA">En savoir plus <span aria-hidden="true">↗</span></button></div></article>
+        <article class="dish-card reveal"><div class="dish-image"><img src="images/IMG-20260926-WA0061.jpg" alt="Assortiment camerounais de riz, haricots, plantains mûrs et viande mijotée" loading="lazy"><span class="dish-tag">Généreux</span></div><div class="dish-info"><div class="dish-title-row"><h3>Assiette du terroir</h3><span class="price">4 500 <small>FCFA</small></span></div><p>Riz, haricots, plantains mûrs et viande mijotée, dans une assiette généreuse.</p><button class="dish-more" type="button" data-meal="Assiette du terroir" data-description="Une assiette généreuse de riz, haricots, plantains mûrs et viande mijotée, aux saveurs familières du Cameroun." data-price="4 500 FCFA">En savoir plus <span aria-hidden="true">↗</span></button></div></article>
+        <article class="dish-card reveal"><div class="dish-image"><img src="images/IMG-20260926-WA0057.jpg" alt="Poissons entiers braisés, plantains mûrs et condiments frais" loading="lazy"><span class="dish-tag">Braisé minute</span></div><div class="dish-info"><div class="dish-title-row"><h3>Poisson braisé</h3><span class="price">5 000 <small>FCFA</small></span></div><p>Mariné aux herbes, braisé à point et accompagné de plantain.</p><button class="dish-more" type="button" data-meal="Poisson braisé" data-description="Poisson entier mariné aux herbes et épices, braisé à point et accompagné de plantain mûr et de condiments." data-price="5 000 FCFA">En savoir plus <span aria-hidden="true">↗</span></button></div></article>
+        <article class="dish-card reveal"><div class="dish-image"><img src="images/IMG-20260926-WA0055.jpg" alt="Sauce au gombo, crabes et peau de bœuf" loading="lazy"><span class="dish-tag">Du terroir</span></div><div class="dish-info"><div class="dish-title-row"><h3>Gombo, crabes &amp; peau de bœuf</h3><span class="price">4 000 <small>FCFA</small></span></div><p>Sauce gombo aux crabes et à la peau de bœuf, accompagnée de tapioca.</p><button class="dish-more" type="button" data-meal="Gombo aux crabes, peau de bœuf & tapioca" data-description="Gombo mijoté avec des crabes et de la peau de bœuf, accompagné de tapioca." data-price="4 000 FCFA">En savoir plus <span aria-hidden="true">↗</span></button></div></article>
+        <article class="dish-card reveal"><div class="dish-image"><img src="images/IMG-20260926-WA0060.jpg" alt="Koki jaune traditionnel enveloppé dans des feuilles de bananier" loading="lazy"><span class="dish-tag">Spécialité</span></div><div class="dish-info"><div class="dish-title-row"><h3>Koki traditionnel</h3><span class="price">3 000 <small>FCFA</small></span></div><p>Une préparation de haricots fondante, cuite doucement dans sa feuille.</p><button class="dish-more" type="button" data-meal="Koki traditionnel" data-description="Spécialité camerounaise de haricots à l'huile de palme, enveloppée dans une feuille et cuite lentement pour une texture fondante." data-price="3 000 FCFA">En savoir plus <span aria-hidden="true">↗</span></button></div></article>
+        <article class="dish-card reveal"><div class="dish-image"><img src="images/IMG-20260926-WA0076.jpg" alt="Sauce jaune servie avec pâte de taro et assortiment de viandes" loading="lazy"><span class="dish-tag">Recette ancestrale</span></div><div class="dish-info"><div class="dish-title-row"><h3>Achu & sauce jaune</h3><span class="price">4 500 <small>FCFA</small></span></div><p>La pâte de taro et sa sauce épicée, pour les amateurs de tradition.</p><button class="dish-more" type="button" data-meal="Achu & sauce jaune" data-description="Pâte de taro onctueuse accompagnée de sa sauce jaune parfumée à l'huile de palme et d'une sélection de viandes." data-price="4 500 FCFA">En savoir plus <span aria-hidden="true">↗</span></button></div></article>
+      </div>
+      <div class="menu-footer"><span>Une envie particulière ?</span><a class="text-link" href="plats.html#menu">Voir toute la carte <span aria-hidden="true">→</span></a></div>
+    </section>
+
+    <section class="about-section" id="apropos" aria-labelledby="about-title">
+      <div class="about-image reveal"><img src="images/IMG-20260926-WA0052.jpg" alt="Poisson braisé, légumes verts, manioc et plantains servis sur un grand plat" loading="lazy"><div class="about-image-label"><span>Le goût</span><strong>des bons<br>moments</strong></div></div>
+      <div class="about-copy reveal"><p class="eyebrow">Notre esprit de maison</p><h2 id="about-title">La tradition se partage <em>à chaque assiette.</em></h2><p>Chez SopJio AfricanResto, la cuisine est une histoire de générosité, de transmission et de bons produits. Nous célébrons les recettes camerounaises qui font du repas un vrai moment de partage.</p><p>Du poisson braisé aux sauces mijotées, chaque assiette rend hommage aux saveurs du pays et au plaisir de se retrouver autour de la table.</p><a class="button button-outline" href="plats.html#menu">Explorer nos plats <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="reviews-section section" id="avis" aria-labelledby="reviews-title">
+      <div class="section-heading reveal"><div><p class="eyebrow">Vos mots comptent</p><h2 id="reviews-title">Un repas, <em>un souvenir.</em></h2></div><p class="review-note">Contenu de démonstration — ces avis ne sont pas vérifiés.</p></div>
+      <div class="review-grid">
+        <article class="review-card reveal"><div class="stars" aria-label="5 étoiles">★★★★★</div><blockquote>« Le Poulet DG était vraiment délicieux, bien assaisonné et généreux. »</blockquote><div class="review-person"><span class="avatar">C</span><span><strong>Camille</strong><small>À propos du Poulet DG · avis de démonstration</small></span></div></article>
+        <article class="review-card reveal"><div class="stars" aria-label="5 étoiles">★★★★★</div><blockquote>« J'ai particulièrement apprécié le Ndolé, le goût était authentique. »</blockquote><div class="review-person"><span class="avatar">M</span><span><strong>Marcelle</strong><small>À propos du Ndolé · avis de démonstration</small></span></div></article>
+        <article class="review-card reveal"><div class="stars" aria-label="5 étoiles">★★★★★</div><blockquote>« Le poisson braisé était excellent et le service très agréable. »</blockquote><div class="review-person"><span class="avatar">J</span><span><strong>Jean</strong><small>À propos du poisson braisé · avis de démonstration</small></span></div></article>
+      </div>
+    </section>
+
+    <section class="visit-section" id="localisation" aria-labelledby="visit-title">
+      <div class="visit-copy reveal"><p class="eyebrow">On vous attend</p><h2 id="visit-title">À bientôt <em>à Makepe.</em></h2><p>Retrouvez-nous au cœur de Makepe, à deux pas du Rond-Point Poulenc.</p><address>Makepe, Rond-Point Poulenc,<br>en face de la Boulangerie Saker,<br>Douala, Cameroun</address><div class="visit-actions"><a class="button button-primary" href="https://www.google.com/maps/search/?api=1&amp;query=Makepe%2C%20Rond-Point%20Poulenc%2C%20en%20face%20de%20la%20Boulangerie%20Saker%2C%20Douala%2C%20Cameroun" target="_blank" rel="noopener noreferrer">Voir l’itinéraire <span aria-hidden="true">↗</span></a><a class="button button-whatsapp" href="https://wa.me/237680053489?text=Bonjour%20SopJio%20AfricanResto%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20votre%20menu." target="_blank" rel="noopener noreferrer">Écrire sur WhatsApp <span aria-hidden="true">↗</span></a></div></div>
+      <div class="map-frame reveal"><iframe title="Carte de Makepe, Rond-Point Poulenc à Douala" src="https://maps.google.com/maps?q=Makepe%2C%20Rond-Point%20Poulenc%2C%20Douala%2C%20Cameroon&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><span class="map-caption">Makepe · Douala</span></div>
+    </section>
+
+    <section class="contact-band" id="contact"><div><p class="eyebrow">Une belle assiette vous attend</p><h2>Le meilleur des saveurs camerounaises,<br><em>à partager ensemble.</em></h2></div><a class="button button-light" href="https://wa.me/237680053489?text=Bonjour%20SopJio%20AfricanResto%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20votre%20menu." target="_blank" rel="noopener noreferrer">Commander sur WhatsApp <span aria-hidden="true">↗</span></a></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-main"><a class="brand brand-footer" href="index.html"><img src="images/logo-sopjio.png" alt="SopJio AfricanResto — Le goût authentique de l’Afrique"></a><p>La chaleur du Cameroun, à votre table.</p><a class="footer-address" href="#localisation">Makepe, Rond-Point Poulenc<br>En face de la Boulangerie Saker, Douala</a><a class="footer-whatsapp" href="https://wa.me/237680053489?text=Bonjour%20SopJio%20AfricanResto%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20votre%20menu." target="_blank" rel="noopener noreferrer">WhatsApp · +237 680 05 34 89 ↗</a><nav class="footer-nav" aria-label="Liens de pied de page"><a href="#accueil">Accueil</a><a href="plats.html#menu">Menu</a><a href="#apropos">À propos</a><a href="#localisation">Nous trouver</a></nav></div><div class="footer-bottom"><span>© <span data-year></span> SopJio AfricanResto</span><span>Cuisine camerounaise · Makepe, Douala</span></div></footer>
+
+  <dialog class="meal-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Fermer">×</button><p class="eyebrow">À la carte</p><h2 id="dialog-title"></h2><p class="dialog-description"></p><p class="dialog-price"></p><a class="button button-primary dialog-menu-link" href="plats.html#menu">Consulter la carte <span aria-hidden="true">↗</span></a></dialog>
+</body>
+</html>
